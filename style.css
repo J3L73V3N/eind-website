@@ -154,3 +154,12 @@ footer {
     margin-top: 1rem;
   }
 }
+
+.homefooter{
+background-image: url(images/super\ mario.png); 
+ background-size: cover;
+ 
+ background-position: center;
+padding: 20px;
+text-align: center;
+}
