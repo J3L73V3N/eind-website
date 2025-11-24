@@ -116,6 +116,13 @@ body {
   object-fit: scale-down;
 }
 
+.team-member img:hover {
+transform: scale(2);
+background-color: black;
+transition-duration: 2s;
+rotate: 1080deg;
+}
+
 .team-member h3 {
   color: #004aad;
   margin-top: 1rem;
