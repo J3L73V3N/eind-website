@@ -14,7 +14,7 @@ body {
 }
 
 .homebody {
-  background-color:;
+  background-color:
 }
 
 /* Navbar */
@@ -92,9 +92,9 @@ body {
 /* Content Sections */
 .content {
   padding: 3rem 2rem;
-  max-width: 900px;
   margin: auto;
 }
+
 
 .content h2 {
   color: #004aad;
@@ -120,7 +120,21 @@ body {
   height: 45%;
   object-fit: scale-down;
 }
-
+.shiverian {
+  border-radius: 50%;
+  width: 45%;
+  height: 45%;
+  object-fit: scale-down;
+}
+.shiverian img:hover {
+  transform: scale(2);
+transition-duration: 100s;
+rotate: 300000deg;
+margin-top: 50px;
+margin-bottom: 70px;
+margin-left: 30px;
+margin-right: 30px;
+}
 .team-member img:hover {
 transform: scale(2);
 transition-duration: 2s;
@@ -137,20 +151,24 @@ margin-right: 30px;
 }
 
 /* Game section */
+
 .games {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
-  margin: 0px, 200px;
+  flex-wrap: wrap;
+  background-color: lightblue;
 }
+
 
 .game {
   text-align: center;
+
 }
 
 .game img {
-  width: 150px;
-  height: 200px;
+  width: 200px;
+  height: 250px;
 }
 
 /* Contact Form */
