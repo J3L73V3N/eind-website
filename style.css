@@ -136,6 +136,23 @@ margin-right: 30px;
   margin-top: 1rem;
 }
 
+/* Game section */
+.games {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0px, 200px;
+}
+
+.game {
+  text-align: center;
+}
+
+.game img {
+  width: 150px;
+  height: 200px;
+}
+
 /* Contact Form */
 .contact-form {
   display: flex;
