@@ -5,11 +5,16 @@
   
 }
 
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: red;
   background-color: #f9f9f9;
   text-align: center;
+}
+
+.homebody {
+  background-color:;
 }
 
 /* Navbar */
@@ -143,11 +148,15 @@ body {
 
 /* Footer */
 footer {
+  position: fixed;
   color: rgb(0, 0, 0);
   text-align: center;
-  padding: 1rem;
-  margin-top: 3rem;
   background-image: url(images/Schermafbeelding\ 2025-11-12\ 144701.png);
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  bottom: 0;
 }
 
 
@@ -165,7 +174,7 @@ footer {
 background-image: url(images/Schermafbeelding\ 2025-11-12\ 144701.png); 
 background-size: cover;
 background-position: center;
-padding: 10%;
+padding: 3.7%;
 text-align: center;
 max-height: 10%;
 }
