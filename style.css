@@ -124,23 +124,6 @@ body {
   height: 45%;
   object-fit: scale-down;
 }
-.shiverian {
-  border-radius: 50%;
-  width: 45%;
-  height: 45%;
-  object-fit: scale-down;
-  display: flex;
-  flex-direction: row;
-}
-.shiverian img:hover {
-  transform: scale(1);
-transition-duration: 10s;
-rotate: -3600deg;
-margin-top: 50px;
-margin-bottom: 70px;
-margin-left: 30px;
-margin-right: 30px;
-}
 .team-member img:hover {
 transform: scale(2);
 transition-duration: 2s;
@@ -238,5 +221,9 @@ max-height: 10%;
 }
 
 #fransefriet {
-  flex-direction;
+  background-color: #000000;
+}
+
+h1 {
+ color: yellow;
 }
