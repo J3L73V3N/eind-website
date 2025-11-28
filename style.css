@@ -127,10 +127,12 @@ body {
   height: 45%;
   object-fit: scale-down;
   opacity: 0.5;
+  transform: scale(1);
+  transition-duration: 1s;
 }
 .team-member img:hover {
 transform: scale(2);
-transition-duration: 2s;
+transition-duration: 2s; 
 rotate: 360deg;
 margin-top: 20px;
 margin-bottom: 35px;
