@@ -13,14 +13,6 @@ body {
   text-align: center;
 }
 
-.homebody {
-   
-}
-
-header{
-  
-}
-
 
 /* Navbar */
 .navbar {
@@ -242,4 +234,8 @@ max-height: 10%;
 
 h1 {
  color: yellow;
+}
+
+.homelogo {
+   size: 5;
 }
