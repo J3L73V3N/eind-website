@@ -222,17 +222,18 @@ max-height: 10%;
   background-image: url(https://images6.alphacoders.com/860/thumb-1920-860645.png); 
   display: flex;
   background-position-x: right;
-  border: 2px solid black;
+  border: 10px solid black;
   flex-direction: column
   flex-start
 
 }
 
 #fransefriet {
+  border: double;
   color: rgb(255, 191, 0);
  background-position-x: center;
    background-image: url(https://cdn.wallpapersafari.com/32/70/pP1eOG.jpg)
-   
+
 }
 
 h1 {
