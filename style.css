@@ -221,7 +221,10 @@ max-height: 10%;
 }
 
 #fransefriet {
-  background-color: #000000;
+  color: rgb(255, 191, 0);
+ background-position-x: center;
+   background-image: url(https://cdn.wallpapersafari.com/32/70/pP1eOG.jpg)
+   
 }
 
 h1 {
