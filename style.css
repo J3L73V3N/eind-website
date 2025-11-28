@@ -17,8 +17,13 @@ body {
    
 }
 
-header{
-  
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100px;  
+  height: auto;
 }
 
 
@@ -29,44 +34,42 @@ header{
   align-items: center;
   background-color: red;
   padding: 1rem 2rem;
-  flex-wrap: wrap;
+  position: relative;
+  min-height: 100px;
 }
 
 .personages {
  background-image: url();
 }
 
-.logo {
-  color: white;
-  font-size: 1.5rem;
-}
+.logo img {
+  width: 120px;   /* Pas dit aan om kleiner/groter te maken */
+  height: auto;}
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
+  margin-left: auto; 
 }
 
 .nav-links a {
-  color: white;
   text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s;
+  font-weight: bold;
+  color: white;
 }
+
 
 .nav-links a:hover,
 .nav-links a.active {
-  color: #ffd700;
+  color: yellow;
 }
 
-/* Hero Section */
 .hero {
-  background: linear-gradient(red, rgb(0, 132, 255)), url('https://via.placeholder.com/1200x600');
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(to bottom, red, blue);
   color: white;
   text-align: center;
-  padding: 5rem 2rem;
+  padding: 8rem 2rem;
 }
 
 .hero h2 {
@@ -74,20 +77,20 @@ header{
   margin-bottom: 1rem;
 }
 
+
 .hero p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+  font-size: 1.1rem;
 }
 
 .btn {
-  background-color: #ffd700;
-  color: #004aad;
-  padding: 0.8rem 1.5rem;
-  border: none;
+  background: yellow;
+  padding: 0.8rem 2rem;
   border-radius: 25px;
-  text-decoration: none;
+  color: black;
   font-weight: bold;
-  transition: background-color 0.3s;
+  text-decoration: none;
 }
 
 .btn:hover {
@@ -209,13 +212,12 @@ footer {
   }
 }
 
-.homefooter{
-background-image: url(images/Schermafbeelding\ 2025-11-12\ 144701.png); 
-background-size: cover;
-background-position: center;
-padding: 3.7%;
-text-align: center;
-max-height: 10%;
+.homefooter {
+  text-align: center;
+  padding: 1rem;
+  background: green;
+  color: black;
+  
 }
 
 #container3 {
