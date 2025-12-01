@@ -223,7 +223,7 @@ footer {
   background-position-x: right;
   border: 10px solid black;
   flex-direction: column
-  flex-start
+  flex-start;
 
 }
 
