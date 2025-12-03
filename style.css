@@ -219,9 +219,9 @@ footer {
 }
 
 #container3 {
-  background-image: url(); 
+  background-image: url(images/imageVSamigo.png); 
   display: flex;
-  background-position-x: right;
+  background-position-x: center;
   flex-direction: column
   flex-start;
 
