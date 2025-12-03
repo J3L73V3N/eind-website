@@ -9,7 +9,8 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(0, 0, 0);
-  background-color: #f9f9f9;
+  background: linear-gradient(to bottom, red, blue);
+  padding: 0rem 0rem;
   text-align: center;
 }
 
@@ -61,10 +62,10 @@ body {
 }
 
 .hero {
-  background: linear-gradient(to bottom, red, blue);
+  background: linear-gradient(to bottom, rgb(255, 0, 0), blue);
   color: white;
   text-align: center;
-  padding: 13rem 2rem;
+  padding: 11rem 2rem;
 }
 
 .hero h2 {
@@ -152,7 +153,6 @@ opacity: 1;
   justify-content: space-around;
   align-items: flex-start;
   flex-wrap: wrap;
-  background-color: lightblue;
 }
 
 
@@ -185,6 +185,7 @@ opacity: 1;
 .contact-form button {
   align-self: start;
 }
+
 
 footer {
   position: fixed;
@@ -221,7 +222,6 @@ footer {
   background-image: url(https://images6.alphacoders.com/860/thumb-1920-860645.png); 
   display: flex;
   background-position-x: right;
-  border: 10px solid black;
   flex-direction: column
   flex-start;
 
