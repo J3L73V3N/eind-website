@@ -219,7 +219,7 @@ footer {
 }
 
 #container3 {
-  background-image: url(https://images6.alphacoders.com/860/thumb-1920-860645.png); 
+  background-image: url(); 
   display: flex;
   background-position-x: right;
   flex-direction: column
@@ -228,7 +228,6 @@ footer {
 }
 
 #fransefriet {
-  border: double;
   color: rgb(255, 191, 0);
  background-position-x: center;
    background-image: url(https://cdn.wallpapersafari.com/32/70/pP1eOG.jpg)
