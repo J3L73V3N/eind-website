@@ -65,6 +65,7 @@ body {
   color: white;
   text-align: center;
   padding: 13rem 2rem;
+  border: 0rem;
 }
 
 .hero h2 {
@@ -218,7 +219,7 @@ footer {
 }
 
 #container3 {
-  background-image: url(https://images6.alphacoders.com/860/thumb-1920-860645.png); 
+  background-image: url(/images/achtergrondMario.png); 
   display: flex;
   background-position-x: right;
   border: 10px solid black;
