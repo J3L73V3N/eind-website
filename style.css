@@ -151,21 +151,22 @@ opacity: 1;
 
 
 .games {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-
-
+   display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-top: 40px;
+  }
+ 
+ 
 .game {
   text-align: center;
-
 }
-
+ 
 .game img {
   width: 200px;
   height: 250px;
+  border: 7px solid black;
 }
 
 /* Contact Form */
