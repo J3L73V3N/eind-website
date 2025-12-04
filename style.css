@@ -9,7 +9,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(0, 0, 0);
-  background: linear-gradient(to bottom, red, blue);
+  background: linear-gradient(to bottom, rgb(255, 0, 0), blue);
   padding: 0rem 0rem;
   text-align: center;
 }
@@ -28,7 +28,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: red;
+  background-color: rgb(236, 21, 21);
   padding: 1.5rem 2rem;
   position: relative;
   min-height: 10%;
@@ -62,7 +62,7 @@ body {
 }
 
 .hero {
-  background: linear-gradient(to bottom, rgb(255, 0, 0), blue);
+  background: linear-gradient(to bottom, rgb(241, 15, 15), blue);
   color: white;
   text-align: center;
   border: 0rem;
