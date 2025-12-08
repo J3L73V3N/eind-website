@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(0, 0, 0);
+  color: white;
   background: linear-gradient(to bottom, rgb(255, 0, 0), blue);
   padding: 0rem 0rem;
   text-align: center;
@@ -191,7 +191,7 @@ opacity: 1;
 
 footer {
   position: fixed;
-  color: rgb(0, 0, 0);
+  color: white;
   text-align: center;
   background-image: url(images/Schermafbeelding\ 2025-11-12\ 144701.png);
   background-position: center;
@@ -216,7 +216,7 @@ footer {
   text-align: center;
   padding: 1rem;
   background: green;
-  color: black;
+  color: white;
   
 }
 
